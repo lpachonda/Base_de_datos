@@ -38,21 +38,19 @@ create temporary table if not exists Nota
    data21 int not null,
    idtabla1 int not null,
    idtabla3 int not null,
-   
+
    constraint t2_t1
    foreign key (idtabla1)
    references tabla1(id),
-   
+
    constraint t2_t3
    foreign key (idtabla3)
    references tabla3(id)
-   
+
+
+
 );
- 
- 
 
-
-
-
-
-
+rename table Docente to Profesor;
+truncate table Docente;
+drop table Docente;
