@@ -1,5 +1,5 @@
-update Alumno
-set  name= "Luisa" 
-where id=1 ;
+update Estudiantes
+set  Nombre= "Juan" 
+where id=1;
 
 
