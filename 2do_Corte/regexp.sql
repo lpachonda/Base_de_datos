@@ -52,7 +52,7 @@ from estudiantes;
 
 select *
 from directivos
-where porcentaje regexp'5$';
+where porcentaje regexp'5%';
 
 SET FOREIGN_KEY_CHECKS=0;
 TRUNCATE TABLE `profesores`;
