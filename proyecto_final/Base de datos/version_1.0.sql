@@ -1,3 +1,6 @@
+http://www.mediafire.com/file/4e28c460qv1hb4o/Data_base_1.0.sql/file
+
+
 -- phpMyAdmin SQL Dump
 -- version 5.0.3
 -- https://www.phpmyadmin.net/
